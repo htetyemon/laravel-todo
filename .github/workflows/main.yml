@@ -5,7 +5,7 @@ on:
     branches:
       - master
 
-jobs:  # <-- changed from "job" to "jobs"
+jobs:  
   deploy_testing:
     runs-on: ubuntu-latest
     steps:
